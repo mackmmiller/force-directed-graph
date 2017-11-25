@@ -1,0 +1,42 @@
+{
+  "name": "force-directed-graph",
+  "version": "1.0.0",
+  "description": "A force directed graph made for freeCodeCamp's data visualization project.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start:dev": "webpack-dev-server --inline --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackmmiller/force-directed-graph.git"
+  },
+  "keywords": [
+    "data",
+    "visualization",
+    "force",
+    "directed",
+    "graph",
+    "freecodecamp"
+  ],
+  "author": "Mackenzie Miller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackmmiller/force-directed-graph/issues"
+  },
+  "homepage": "https://github.com/mackmmiller/force-directed-graph#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "dependencies": {
+    "d3": "^4.11.0"
+  }
+}

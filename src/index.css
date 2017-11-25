@@ -1,0 +1,42 @@
+html, body {
+  height: 100%;
+  margin: 0; }
+
+header, footer {
+  background: #c87250; }
+
+header {
+  padding: 1em; }
+
+body {
+  background: #f5dd94; }
+
+div.tooltip {
+  position: absolute;
+  border: 3px solid #bd3b2a;
+  border-radius: 5px;
+  background: #75ae7b;
+  pointer-events: none;
+  padding: 0.25em;
+  text-align: center; }
+
+svg {
+  display: block;
+  margin: auto;
+  background: #4a4746; }
+  svg .links line {
+    stroke: #75ae7b;
+    stroke-opacity: 0.6; }
+  svg .nodes circle {
+    stroke: #bd3b2a;
+    stroke-width: 1.5px;
+    fill: #f5dd94; }
+
+footer {
+  padding: 0.25em;
+  text-align: center;
+  color: white; }
+  footer a {
+    color: white; }
+
+/*# sourceMappingURL=index.css.map */

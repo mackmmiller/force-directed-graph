@@ -1,0 +1,56 @@
+$primary: #c87250; $secondary: #4a4746; $detail1: #75ae7b; $detail2: #bd3b2a; $background: #f5dd94; $fill: #f5dd94;
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+header,footer {
+	background: $primary;
+}
+
+header {
+	padding: 1em;
+}
+
+body {
+	background: $background;
+}
+
+div.tooltip {
+	position: absolute;
+	border: 3px solid $detail2;
+	border-radius: 5px;
+	background: $detail1;
+	pointer-events: none;
+	padding: 0.25em;
+	text-align: center;
+}
+
+svg {
+	display: block;
+	margin: auto;
+	background: $secondary;
+	.links {
+		line {
+			stroke: $detail1;
+  			stroke-opacity: 0.6;
+		}
+	}
+	.nodes {
+		circle {
+			stroke: $detail2;
+	  		stroke-width: 1.5px;
+	  		fill: $fill;
+	  	}
+	}
+}
+
+footer {
+	padding: 0.25em;
+	text-align: center;
+	color: white;
+	a {
+		color: white;
+	}
+}
